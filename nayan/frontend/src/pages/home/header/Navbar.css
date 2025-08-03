@@ -1,0 +1,95 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  a{
+    text-decoration: none;
+  }
+  .body {
+    width: 1260px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+    z-index: 100;
+  }
+  
+  .navbar {
+    width: 1260px; /* Fixed width for navbar */
+    height: 60px; /* Fixed height */
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  .name {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-basis: 50%; /* Adjust search box width */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-box {
+    width: 80%; /* Fixed width for the input */
+    height: 40px; /* Fixed height */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    width: 18%; /* Fixed width for the button */
+    height: 40px; /* Matches input height */
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: #cc7a00;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .login-btn,
+  .signup-btn {
+    height: 40px; /* Fixed height */
+    width: 80px; /* Fixed width */
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-btn:hover,
+  .signup-btn:hover {
+    background-color: #333;
+    color: white;
+  }
+  

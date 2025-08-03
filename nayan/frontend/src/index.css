@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1260px; /* Fixed width */
+  height: 2500px; /* Fixed height */
+  margin: 0 auto;
+  
+}
+a{
+  text-decoration: none;
+  
+}

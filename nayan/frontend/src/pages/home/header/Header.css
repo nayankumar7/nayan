@@ -1,0 +1,23 @@
+.tools p{
+    justify-content: flex-start;
+    align-items: start;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    color: white;
+    padding: 5px;
+}
+.tools{
+    height: 34px;
+    width:1260px;
+    background-color: #0f1111;
+    border: 2px solid rgb(40, 4, 4);
+    position: fixed;
+    z-index: 100;
+    color: white;
+}
+.header{
+    z-index: 100;
+}
+.links{
+   color:white; 
+}
